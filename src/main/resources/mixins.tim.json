@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "package": "com.example.addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HandmoldBobMixin",
+    "HandmoldMixin",
+    "HeldItemRendererAccessor",
+    "AbstractClientPlayerEntityMixin",
+    "ThirdSightCameraMixin",
+    "ThirdSightMouseMixin",
+    "IMouseAccessor",
+    "LivingEntityRendererMixin",
+    "EntityMixin",
+    "EntityGlowingMixin",
+    "EntityGlowingColorMixin",
+    "InGameHudMixin",
+    "ElytraAssistantMixin",
+    "ElytraAssistantSwingMixin",
+    "InteractionAccessor",
+    "DatamineMixin",
+    "PortalMakerMixin",
+    "EndGatewayBlockEntityAccessor",
+    "PortalTrackerMixin",
+    "TunnelersMixin",
+    "HandledScreenAccessor",
+    "HandledScreenMixin",
+    "MixinSignBlockEntityRenderer",
+    "RocketPilotInputMixin",
+    "RocketPilotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

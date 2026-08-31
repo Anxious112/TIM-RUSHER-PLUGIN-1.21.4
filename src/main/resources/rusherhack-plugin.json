@@ -1,0 +1,16 @@
+{
+  "Plugin-Class": "com.example.addon.Tim",
+  "Name": "Tim",
+  "Version": "${project.plugin_version}",
+  "Description": "Trail Investigator Module - a handful of utilities for hunting.",
+  "URL": "https://github.com/rithsgit/Tim",
+  "Authors": [
+    "riths"
+  ],
+  "Minecraft-Versions": [
+    "${project.minecraft_version}"
+  ],
+  "Mixin-Configs": [
+    "mixins.tim.json"
+  ]
+}
